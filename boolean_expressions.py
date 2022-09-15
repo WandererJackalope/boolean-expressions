@@ -55,3 +55,6 @@ elif c == 'f':
 ############ Part B ############
 print(f'a and b and c: {a and b and c}')
 print(f'a or b or c: {a or b or c}')
+############ Part C ############
+print(f'XOR: {a is not b}')
+print(f'Odd Number: {(a + b + c) % 2 == 1}')
