@@ -9,3 +9,7 @@
 # Section:      562
 # Assignment:   Lab 4.15
 # Date:         23 Sep 2022
+############ Part A ############
+a = input('Enter True or False for a: ')
+b = input('Enter True or False for b: ')
+c = input('Enter True or False for c: ')
