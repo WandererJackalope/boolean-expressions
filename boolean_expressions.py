@@ -52,3 +52,6 @@ elif c == 'F':
     c = False
 elif c == 'f':
     c = False
+############ Part B ############
+print(f'a and b and c: {a and b and c}')
+print(f'a or b or c: {a or b or c}')
