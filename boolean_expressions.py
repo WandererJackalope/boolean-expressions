@@ -59,4 +59,5 @@ print(f'a or b or c: {a or b or c}')
 print(f'XOR: {a is not b}')
 print(f'Odd number: {(a + b + c) % 2 == 1}')
 ############ Part D ############
-
+print(f'Complex 1: {(not (a and not b)) or (not c and b) and (not b) or (not a and b and not c) or (a and not b)}')
+print(f'Complex 2: {(not ((b or not c) and (not a or not c))) or (not (c or not (b and c))) or (a and not c) and (not a or (a and b and c) or (a and ((b and not c) or (not b))))}')
